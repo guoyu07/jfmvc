@@ -13,22 +13,9 @@
  * limitations under the License.
  */
 package com.hyts.jfmvc.web.listener;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-
-
-
-
-
-
 import org.apache.log4j.Logger;
-
-
-
-
-
-
 import com.hyts.jfmvc.bind.BindSubjectHandler;
 import com.hyts.jfmvc.bind.domain.BindDomains;
 import com.hyts.jfmvc.bind.injector.DefaultClassInjector;
