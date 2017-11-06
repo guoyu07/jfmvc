@@ -66,7 +66,7 @@ public final class JfmvcScanner {
 			for(Object obj :obj2)
 			{
 				ScanResultInvoke inv = (ScanResultInvoke)obj;
-					logger.info(inv.getClassEntity()+"----->"+inv.getAnnotation()+"---->"+inv.getAnnotationData());
+					logger.info("[hyts-jfmvc-scan] --- [扫描架构] --- "+inv.getClassEntity()+"----->"+inv.getAnnotation()+"---->"+inv.getAnnotationData());
 					//构建路由
 					JfmvcScanHandler.getInstance().handlerAnnotationByRoute(inv);
 					logger.info("[hyts-jfmvc-scan] --- [扫描架构] --- 开始扫描依赖所有Controller控制器中的注入注解Resource的依赖关系进行绑定");
